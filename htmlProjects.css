@@ -1,0 +1,81 @@
+@import url('https://fonts.googleapis.com/css2?family=Itim&family=Raleway&family=Source+Code+Pro&display=swap');
+*{
+    margin: 0px;
+    padding: 0px;
+    font-family: 'Itim', cursive;
+}
+h1 {
+    box-sizing: border-box;
+    text-align: center;
+    background-color: black;
+    color: white;
+    padding: 20px;
+}
+table,
+th,
+td {
+    margin: 50px auto;
+    text-align: center;
+    border-collapse: collapse;
+}
+tr:nth-child(even) {
+    background:#f2f2f2;
+  }
+
+th:first-child {
+    text-align: left !important;
+}
+
+td:first-child {
+    padding: 8px 30px;
+    text-align: left !important;
+}
+
+th{
+    background-color:black;
+    font-size: 20px;
+    padding: 8px 30px;
+    color: white;
+}
+
+table a{
+    padding: 8px 30px;
+    box-sizing: border-box;
+    width: 100%;
+    text-decoration: none;
+    display: inline-block;
+}
+table a:hover{
+    background-color: #ddd;
+}
+table a i{
+    display: block;
+}
+.connected {
+    display: block;
+    width: 100%;
+    box-sizing: border-box;
+    background-color: black;
+    color: white;
+    flex-direction: column;
+    text-align: center;
+    padding: 40px 0px;
+}
+
+.connected h2 {
+    margin: 0px 0px 10px 0px;
+}
+
+.connected h3 {
+    margin: 10px 0px;
+}
+
+.connected p a {
+    color: white;
+    text-decoration: none;
+}
+
+.connected a i {
+    margin: 0px 5px;
+    font-size: 20px;
+}
