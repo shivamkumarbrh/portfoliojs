@@ -10,6 +10,10 @@ h1 {
     background-color: black;
     color: white;
     padding: 20px;
+    font-size: 50px;
+}
+table{
+    font-size: 24px;
 }
 table,
 th,
@@ -33,7 +37,6 @@ td:first-child {
 
 th{
     background-color:black;
-    font-size: 20px;
     padding: 8px 30px;
     color: white;
 }
@@ -54,6 +57,7 @@ table a i{
 .connected {
     display: block;
     width: 100%;
+    font-size: 22px;
     box-sizing: border-box;
     background-color: black;
     color: white;
@@ -78,4 +82,30 @@ table a i{
 .connected a i {
     margin: 0px 5px;
     font-size: 20px;
+}
+
+
+/* media query */
+
+@media screen and (max-width:992px) {
+    h1{
+        font-size: 2.5rem;
+    }
+    table{
+        font-size: 1.4rem;
+    }
+    .connected{
+        font-size: 1.2rem;
+    }
+}
+@media screen and (max-width:600px) {
+    h1{
+        font-size: 2rem;
+    }
+    table{
+        font-size: 1.2rem;
+    }
+    .connected{
+        font-size: 1.1rem;
+    }
 }
